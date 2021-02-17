@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inconsolata:wght@200;400;500;700&family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&display=swap');
+
+body {
+  background-color: rgba(204, 88, 3, 0.1) ;
+  font-family: Inconsolata;
+  color: rgba(80, 80, 80, 1);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: "Fjalla One";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "Fjalla One";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  font-family: Inconsolata;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(204, 88, 3, 1);
+}
+  a:hover {
+    color: rgba(204, 88, 3, 0.7);
+  }
+
+
+.container {
+      width: 80%;
+      min-width: 360px;
+      margin: 10% auto;
+  }
+
+@media (min-width: 768px) {
+  .container {
+      width: 700px;
+      margin: 30px auto;
+  }
+}
+
+.cards {
+  padding : 30px;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.profile {
+  width: 200px;
+  border-radius: 35%;
+  border: 8px solid rgba(204, 88, 3, 0.6);
+}
+
+.button-main {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 20px;
+  background-color: rgba(204, 88, 3, 1);
+  border-radius: 5px;
+  color: white;
+}
+  .button-main:hover {
+    color: rgba(25, 211, 10, 1);
+  }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.social-icons {
+  font-size: 35px;
+  letter-spacing: 20px;
+}
+
+
